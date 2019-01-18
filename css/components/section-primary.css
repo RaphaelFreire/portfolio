@@ -46,6 +46,31 @@
 
 
 
+/* Responsivo 1000px */
+@media(max-width: 1000px){
+  .container.-primary::before{
+  }
+
+  .container.-primary::after{
+  }
+
+  .row {
+  }
+
+  .icon-computador{
+  }
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .sub-title{
+  }
+}
+
+
+
+
 
 /* Responsivo 640px */
 @media(max-width: 640px){
