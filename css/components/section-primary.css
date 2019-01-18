@@ -1,7 +1,7 @@
 .container.-primary::before{
   content: "";
   width: 100%;
-  height: 800px;
+  height: 700px;
   position: absolute;
   top:0;
   left: 0;
@@ -11,19 +11,19 @@
 .container.-primary::after{
   content: "";
   width: 100%;
-  height: 800px;
+  height: 700px;
   position: absolute;
   top:0;
   left: 0;
   background: no-repeat url(/img/linhas-detalhe.svg);
-  background-position-y: 500px;
+  background-position-y: 400px;
 }
 
 .row {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .icon-computador{
@@ -46,27 +46,41 @@
 
 
 
+
+
+
 /* Responsivo 1000px */
 @media(max-width: 1000px){
   .container.-primary::before{
+    height: 600px;
   }
 
   .container.-primary::after{
+    height: 600px;
+    background-position-y: 400px;
   }
 
   .row {
+    height: 600px; 
+    align-items: center;
   }
 
   .icon-computador{
+    width: 80%;
   }
 
   .title {
     margin-top: 30px;
+    width: 100%;
+    text-align: center;
   }
 
   .sub-title{
+    width: 100%;
+    text-align: center;
   }
 }
+
 
 
 
@@ -75,15 +89,16 @@
 /* Responsivo 640px */
 @media(max-width: 640px){
   .container.-primary::before{
-    height: 600px;
+    height: 400px;
   }
 
   .container.-primary::after{
-    height: 600px;
+    height: 400px;
+    background-position-y: 300px;
   }
 
   .row {
-    height: 600px; 
+    height: 400px; 
     align-items: center;
   }
 
@@ -112,15 +127,15 @@
 /* Responsivo 320px */
 @media(max-width: 320px){
   .container.-primary::before{
-    height: 400px;
+    height: 350px;
   }
 
   .container.-primary::after{
-    background-position-y: 300px;
+    background-position-y: 280px;
   }
 
   .row {
-    height: 400px;
+    height: 350px;
     align-items: center;
   }
 
