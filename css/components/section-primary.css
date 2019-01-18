@@ -23,25 +23,25 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 800px; 
+  height: 800px;
 }
 
 .icon-computador{
   width: 50%;
   float: left;
-  border: 1px solid black;
 }
 
 .title {
+  margin-top: 60px;
   width: 45%;
   float: left;
-  border: 1px solid black;
+  color: #fff;
 }
 
 .sub-title{
   width: 45%;
   float: left;
-  border: 1px solid black;
+  color: #fff;
 }
 
 
@@ -67,11 +67,14 @@
   }
 
   .title {
+    margin-top: 0px;
     width: 100%;
+    text-align: center;
   }
 
   .sub-title{
     width: 100%;
+    text-align: center;
   }
 }
 
