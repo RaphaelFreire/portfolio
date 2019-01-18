@@ -109,8 +109,8 @@
 
 
 
-/* Responsivo 400px */
-@media(max-width: 400px){
+/* Responsivo 320px */
+@media(max-width: 320px){
   .container.-primary::before{
     height: 400px;
   }
