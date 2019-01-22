@@ -19,7 +19,7 @@
   background-position-y: 400px;
 }
 
-.row {
+.-primary .row {
   display: flex;
   align-items: center;
   width: 100%;
