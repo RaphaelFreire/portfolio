@@ -1,15 +1,14 @@
 .-second .row {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 200px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     height: 200px;
+     border: 1px solid black;
 }
 
 .-second .revista {
-  margin-top: -200px;
-  width: 200px;
-  height: 275px;
+     margin-top: -200px;
+     width: 200px;
+     height: 275px;
 }
-
-
