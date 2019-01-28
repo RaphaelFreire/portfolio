@@ -2,13 +2,14 @@
      display: flex;
      align-items: center;
      justify-content: space-around;
-     height: 300px;
+     width: 100%;
+     height: 600px;
 }
 
 .container.-primary::before {
      content: "";
      width: 100%;
-     height: 300px;
+     height: 600px;
      position: absolute;
      top: 0;
      left: 0;
@@ -22,12 +23,12 @@
 .container.-primary::after {
      content: "";
      width: 100%;
-     height: 300px;
+     height: 600px;
      position: absolute;
      top: 0;
      left: 0;
      background: no-repeat url(/img/linhas-detalhe.svg);
-     background-size: 100%;
+     background-position-y: bottom;
 }
 
 .icon-computador {
@@ -53,6 +54,18 @@
      .container {
           display: block;
           text-align: center;
+          height: 400px;
+          margin-top: 15%;
+     }
+
+     .container.-primary::before {
+          width: 100%;
+          height: 400px;
+     }
+
+     .container.-primary::after {
+          width: 100%;
+          height: 400px;
      }
 
      .icon-computador {

@@ -1,22 +1,16 @@
-.-third .row {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 250px;
+.-third {
+     position: relative;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
 }
 
 .-third .logo {
-  width: 200px;
-  height: 275px;
+     width: 200px;
+     height: 170px;
 }
 
-.-third .logo.-breno{
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-.-third .logo.-erika{
-  margin-left: 75px;
-  margin-right: 75px;
+.-third > .logo.-menor {
+     width: 170px;
 }
