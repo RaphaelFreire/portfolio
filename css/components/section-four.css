@@ -22,7 +22,8 @@
      top: 0;
      left: 0;
      background: no-repeat url(/img/linhas-detalhe.svg);
-     background-position-y: center;
+     background-position-y: bottom;
+     background-attachment: fixed;
      z-index: -1;
 }
 

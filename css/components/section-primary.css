@@ -18,6 +18,7 @@
           rgba(0, 255, 245, 1) 0%,
           rgba(0, 133, 147, 1) 100%
      );
+     z-index: -1;
 }
 
 .container.-primary::after {
@@ -28,26 +29,32 @@
      top: 0;
      left: 0;
      background: no-repeat url(/img/linhas-detalhe.svg);
-     background-position-y: bottom;
+     background-attachment: fixed;
+     z-index: -1;
 }
 
 .icon-computador {
      position: relative;
-     width: 40%;
+     width: 50%;
 }
 
 .chamada-principal {
-     width: 60%;
+     width: 50%;
 }
 
 .title {
      position: relative;
      color: #fff;
+     font-weight: 400;
+     font-size: 3em;
 }
 
 .sub-title {
      position: relative;
+     margin-top: 10px;
      color: #fff;
+     font-weight: 300;
+     font-size: 1.3em;
 }
 
 @media (max-width: 600px) {
