@@ -64,6 +64,15 @@
      line-height: 25px;
 }
 
+.-four .conteudo ul li > a{
+     text-decoration: none;
+     color: inherit;
+}
+
+.-four .conteudo ul li > a:hover{
+     border-bottom: 1px solid gray;
+}
+
 
 @media(max-width:1300px){
      .-four .conteudo {
