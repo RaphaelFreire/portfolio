@@ -35,8 +35,6 @@
      align-items: center;
      justify-content: center;
      width: 100%;
-     height: 650px;
-     
 }
 
 .-four .-destaque {
@@ -52,7 +50,7 @@
      padding: 25px;
 }
 
-.-four .conteudo > p{
+.-four .conteudo > p {
      margin-bottom: 20px;
      line-height: 25px;
      text-align: justify;
@@ -93,6 +91,7 @@
 }
 
 @media(max-width: 600px){
+
      .-four .-destaque {
           width: 220px;
           height: 320px;
@@ -101,5 +100,4 @@
      .-four .conteudo {
          width: 100%;
      }
-
-}
+} 
