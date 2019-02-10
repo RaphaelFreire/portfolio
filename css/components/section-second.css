@@ -18,6 +18,8 @@
      }
 
      .-second .revista {
+          width: 140px;
+          height: 200px;
           margin-top: 0px;
      }
 }

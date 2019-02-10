@@ -1,70 +1,112 @@
-.formulario{
+.formulario {
      justify-content: center;
      display: flex;
      align-items: center;
      width: 100%;
 }
 
-.formulario form input{
-    display: block;
-    border: none;
-    border-bottom: 1px solid gray;
-    width: 500px;
-    height: 30px;
-    margin-top: 10px;
+.formulario form input {
+     border: none;
+     height: 40px;
+     width: 500px;
+     margin-top: 10px;
 }
 
-.formulario form textarea{
-    display: block;
-    border: none;
-    width: 460px;
-    height: 200px;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.10);
+.formulario .form-nome {
+     display: inline-block;
+     width: 500px;
+     margin-left: 10px;
+     font-family: sans-serif;
+     font-size: 18px;
+     border-bottom: 1px solid #00a7b4;
 }
 
-.formulario form button{
-    display: block;
-    width: 500px;
-    height: 40px;
-    margin-top: 20px;
-    border: none;
-    background: linear-gradient(
-        -45deg,
-        #00fff6 0%,
-        rgba(0, 133, 147, 1) 100%
-   );
-   color: #fff;
-   font-family: sans-serif;
-   font-size: 20px;
-   text-transform: uppercase;
-   font-weight: bold;  
+.formulario .form-email {
+     display: inline-block;
+     width: 500px;
+     margin-left: 10px;
+     font-size: 18px;
+     border-bottom: 1px solid #00a7b4;
 }
 
+.icon-nome {
+     display: inline-block;
+     width: 20px;
+}
 
+.icon-email {
+     display: inline-block;
+     width: 20px;
+}
 
-@media(max-width: 600px){
-    .formulario form {
-        width: 80%;
-        margin-top: 0px;
-        position: relative;
-        display: block;
-    }
+.formulario form textarea {
+     box-sizing: content-box;
+     display: block;
+     border: none;
+     width: 500px;
+     height: 200px;
+     padding: 25px;
+     margin-top: 25px;
+     font-size: 18px;
+     background-color: whitesmoke;
+}
 
-    .formulario form input{
-        width: 100%;
-        height: auto;
+.formulario form button {
+     display: block;
+     box-sizing: border-box;
+     width: 190px;
+     height: 65px;
+     border: none;
+     background-color: #00a7b4;
+     color: #fff;
+     font-family: sans-serif;
+     font-size: 18px;
+     text-transform: uppercase;
+     float: right;
+}
 
-    }
+@media (max-width: 600px) {
+     .formulario .form-nome {
+          width: 80%;
+     }
 
-    .formulario form textarea{
-        width: 100%;
-        padding: 0;
-        height: 200px;
-    }
+     .formulario .form-email {
+          width: 80%;
+     }
 
-    .formulario form button{
-        width: 100%;
-    }
+     .formulario form {
+          width: 80%;
+          margin-top: 0px;
+          position: relative;
+          display: block;
+     }
+
+     .formulario form input {
+          width: 100%;
+          height: auto;
+          appearance: none;
+          border-radius: 0px;
+     }
+
+     .formulario form textarea {
+          width: 100%;
+          padding: 0;
+          height: 200px;
+          appearance: none;
+          border-radius: 0px;
+     }
+
+     .formulario form button {
+          width: 100%;
+     }
+}
+
+@media (max-width: 320px) {
+     .formulario .form-nome {
+          width: 75%;
+     }
+
+     .formulario .form-email {
+          width: 75%;
+     }
 }
