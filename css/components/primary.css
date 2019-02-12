@@ -30,7 +30,7 @@
 
 .icon-computador {
      position: relative;
-     width: 43%;
+     width: 50%;
 }
 
 .chamada-principal {
@@ -56,6 +56,15 @@
 @media (max-width: 750px) {
      .primary {
           height: 475px;
+     }
+
+     .icon-computador {
+          width: 45%;
+          transform: translateX(-40px);
+     }
+
+     .chamada-principal {
+          width: 45%;
      }
 }
 
