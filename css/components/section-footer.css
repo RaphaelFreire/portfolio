@@ -9,7 +9,7 @@
      position: relative;
 }
 
-.primary {
+.primary2 {
      display: flex;
      align-items: center;
      justify-content: space-around;
@@ -30,7 +30,7 @@
           text-align: center;
      }
 
-     .primary {
+     .primary2 {
           display: inline;
      }
 
