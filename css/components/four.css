@@ -1,4 +1,4 @@
-.-four::before {
+.four::before {
      content: "";
      margin-top: 10px;
      width: 100%;
@@ -6,15 +6,11 @@
      position: absolute;
      top: 0;
      left: 0;
-     background: linear-gradient(
-          -45deg,
-          rgba(0, 255, 245, 1) 0%,
-          rgba(0, 133, 147, 1) 100%
-     );
+     background: linear-gradient(-45deg,rgba(0, 255, 245, 1) 0%,rgba(0, 133, 147, 1) 100%);
      z-index: -2;
 }
 
-.-four::after {
+.four::after {
      content: "";
      margin-top: 10px;
      width: 100%;
@@ -28,7 +24,7 @@
      z-index: -1;
 }
 
-.-four {
+.four {
      position: relative;
      display: flex;
      flex-wrap: wrap;
@@ -37,67 +33,93 @@
      width: 100%;
 }
 
-.-four .-destaque {
+.four .-destaque {
      position: relative;
      width: 350px;
      height: 450px;
 }
 
-.-four .conteudo {
+.four .conteudo {
      width: 30%;
      position: relative;
      background-color: #fff;
      padding: 25px;
 }
 
-.-four .conteudo > p {
+.four .conteudo > p {
      margin-bottom: 20px;
      line-height: 25px;
      text-align: justify;
 }
 
-.-four .conteudo > ul{
+.four .conteudo > ul{
      margin-top: 10px;
      margin-bottom: 10px;
      line-height: 25px;
 }
 
-.-four .conteudo ul li > a{
+.four .conteudo ul li > a{
      text-decoration: none;
      color: inherit;
 }
 
-.-four .conteudo ul li > a:hover{
+.four .conteudo ul li > a:hover{
      border-bottom: 1px solid gray;
 }
 
 
-@media(max-width:1300px){
-     .-four .conteudo {
-          width: 40%;
+@media(max-width:1500px){
+
+     .four .conteudo {
+          width: 32%;
      }
 }
 
-@media(max-width:1000px){
-     .-four .conteudo {
+
+@media(max-width:1350px){
+
+     .four .conteudo {
+          width: 38%;
+     }
+}
+
+@media(max-width:1100px){
+
+     .four .conteudo {
           width: 50%;
      }
 }
 
-@media(max-width:800px){
-     .-four .conteudo {
+@media(max-width:850px){
+
+     .four .-destaque {
+          margin-top: 60px;
+          margin-bottom: 30px;   
+     }
+
+     .four .conteudo {
           width: 80%;
      }
 }
 
 @media(max-width: 600px){
 
-     .-four .-destaque {
+     .four .-destaque {
+          margin-top: 50px;
+          margin-bottom: 40px;
           width: 220px;
           height: 320px;
      }
 
-     .-four .conteudo {
+     .four .conteudo {
          width: 100%;
      }
-} 
+}
+
+@media(max-width: 320px){
+
+     .four .-destaque {
+          width: 200px;
+          height: 300px;
+     }
+}
