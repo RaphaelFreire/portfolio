@@ -1,7 +1,7 @@
-.-footer {
+.footer {
      display: inline-block;
      width: 100%;
-     height: 230px;
+     height: 180px;
      margin-top: 50px;
      padding-top: 30px;
      color: #fff;
@@ -9,10 +9,15 @@
      position: relative;
 }
 
-.primary2 {
+.footer-primary {
      display: flex;
      align-items: center;
-     justify-content: space-around;
+     justify-content: center; 
+}
+
+.telefone {
+     margin-left: 80px;
+     margin-right: 80px;
 }
 
 .credito.-second {
@@ -26,18 +31,22 @@
 }
 
 @media (max-width: 600px) {
-     .-footer {
+     .footer {
           text-align: center;
+          height: 250px;
      }
 
-     .primary2 {
+     .footer-primary {
           display: inline;
      }
 
      .telefone {
           font-size: 20px;
           margin-bottom: 10px;
+          margin-left: 0px;
+          margin-right: 0px;
           text-decoration: #fff;
+          
      }
 
      .credito {
