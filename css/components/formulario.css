@@ -8,6 +8,7 @@
 
 .formulario form input {
      border: none;
+     border-radius: 0px;
      height: 40px;
      margin-top: 10px;
 }
