@@ -10,6 +10,7 @@
      border: none;
      height: 40px;
      margin-top: 10px;
+     appearance: none;
 }
 
 .formulario .form-nome {
@@ -67,26 +68,20 @@
 
 @media (max-width: 600px) {
      .formulario .form-nome {
-          width: 80%;
+          width: 90%;
      }
 
      .formulario .form-email {
-          width: 80%;
+          width: 90%;
      }
 
      .formulario form {
-          width: 95%;
+          width: 90%;
           margin-top: 0px;
           position: relative;
           display: block;
      }
 
-     .formulario form input {
-          width: 100%;
-          height: auto;
-          appearance: none;
-          border-radius: 0px;
-     }
 
      .formulario form .form-message {
           box-sizing: border-box;
@@ -105,11 +100,11 @@
 
 @media(max-width:450px){
      .formulario .form-nome {
-          width: 80%;
+          width: 85%;
      }
 
      .formulario .form-email {
-          width: 80%;
+          width: 85%;
      }
 }
 
