@@ -106,6 +106,10 @@
      .formulario .form-email {
           width: 80%;
      }
+
+     .formulario form {
+          width: 80%;  
+     }
 }
 
 /* 
