@@ -44,11 +44,16 @@
           display: inline;
      }
 
+     .foto-rodape{
+          transform: translateX(15px);
+     }
+
      .telefone {
           font-size: 20px;
           margin-bottom: 10px;
           margin-left: 0px;
           margin-right: 0px;
-          text-decoration: #fff;     
+          text-decoration: #fff;
+          color: #fff;   
      }
 }
