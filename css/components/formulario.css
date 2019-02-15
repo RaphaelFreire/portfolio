@@ -69,11 +69,11 @@
 
 @media (max-width: 600px) {
      .formulario .form-nome {
-          width: 90%;
+          width: 85%;
      }
 
      .formulario .form-email {
-          width: 90%;
+          width: 85%;
      }
 
      .formulario form {
