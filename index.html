@@ -106,11 +106,17 @@
 
      <div role="form" class="formulario">
           <form name="contact" method="POST" data-netlify="true">
-               <img class="icon-nome" role="img" src="/img/icon-form-nome.svg" alt="icone nome formulário">
-               <input class="form-nome" type="text" name="name" placeholder="Nome" /> <br/>
-               <img class="icon-email" role="img" src="/img/icon-form-email.svg" alt="icone nome formulário">
-               <input class="form-email" type="email" name="email" placeholder="E-mail" />
-               <textarea class="form-message" name="message"></textarea>
+               <label>
+                    <img class="icon-nome" role="img" src="/img/icon-form-nome.svg" alt="icone nome formulário">
+                    <input class="form-nome" type="text" name="name" placeholder="Nome" />
+               </label><br/>
+               <label>
+                    <img class="icon-email" role="img" src="/img/icon-form-email.svg" alt="icone nome formulário">
+                    <input class="form-email" type="email" name="email" placeholder="E-mail" />
+               </label>
+               <label>
+                    <textarea class="form-message" name="message"></textarea>
+               </label>
                <button type="submit">Enviar</button>
           </form>
      </div>
