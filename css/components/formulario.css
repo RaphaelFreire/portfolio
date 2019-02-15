@@ -41,10 +41,10 @@
 }
 
 .formulario form .form-message {
-     box-sizing: content-box;
+     box-sizing: border-box;
      display: block;
      border: none;
-     width: 500px;
+     width: 550px;
      height: 200px;
      padding: 25px;
      margin-top: 25px;
