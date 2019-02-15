@@ -100,19 +100,19 @@
 
 @media(max-width:450px){
      .formulario .form-nome {
-          width: 90%;
+          width: 80%;
      }
 
      .formulario .form-email {
-          width: 90%;
+          width: 80%;
      }
 
      .formulario form {
-          width: 100%;  
+          width: 80%;  
      }
 
      .formulario form .form-message {
-          width: 100%; 
+          width: 80%; 
      }
 }
 
