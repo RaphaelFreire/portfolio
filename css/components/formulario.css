@@ -105,21 +105,21 @@
 
 @media(max-width:450px){
      .formulario .form-nome {
-          width: 83%;
+          width: 80%;
      }
 
      .formulario .form-email {
-          width: 83%;
+          width: 80%;
      }
 }
 
 
 @media (max-width: 320px) {
      .formulario .form-nome {
-          width: 80%;
+          width: 75%;
      }
 
      .formulario .form-email {
-          width: 80%;
+          width: 75%;
      }
 }
