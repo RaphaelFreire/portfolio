@@ -89,6 +89,7 @@
           height: 200px;
           appearance: none;
           border-radius: 0px;
+          border: 0px;
      }
 
      .formulario form button {
