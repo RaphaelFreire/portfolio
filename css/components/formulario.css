@@ -83,8 +83,8 @@
 
 
      .formulario form .form-message {
+          box-sizing: border-box;
           width: 100%;
-          padding: 15px;
           height: 200px;
           appearance: none;
           border-radius: 0px;
