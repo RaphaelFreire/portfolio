@@ -110,6 +110,10 @@
      .formulario form {
           width: 80%;  
      }
+
+     .formulario form .form-message {
+          width: 80%; 
+     }
 }
 
 /* 
