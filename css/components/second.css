@@ -1,58 +1,13 @@
 .second {
-     position: relative;
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-     justify-content: center;
-     margin-top: -100px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -100px;
 }
 
 .second .revista {
-     width: 200px;
-     height: 270px;
-}
-
-@media (max-width: 750px) {
-     .second {
-          margin-top: -35px;
-     }
-
-     .second .revista {
-          width: 160px;
-          height: 230px;
-     }
-}
-
-@media (max-width: 600px) {
-     .second {
-          margin-top: -50px;
-          justify-content: center;
-     }
-
-     .second .revista {
-          width: 120px;
-          height: 170px;
-     }
-}
-
-@media (max-width: 450px) {
-     .second {
-          margin-top: -100px;
-     }
-
-     .second .revista {
-          width: 170px;
-          height: 230px;
-     }
-}
-
-@media (max-width: 320px) {
-     .second {
-          margin-top: 0px;
-     }
-
-     .second .revista {
-          width: 240px;
-          height: 300px;
-     }
+	width: 200px;
+	height: 270px;
 }
