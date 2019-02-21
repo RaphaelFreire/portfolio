@@ -1,131 +1,54 @@
 .primary {
-     display: flex;
-     align-items: center;
-     width: 100%;
-     height: 600px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 600px;
 }
 
 .primary::before {
-     content: "";
-     width: 100%;
-     height: 600px;
-     position: absolute;
-     top: 0;
-     left: 0;
-     background: linear-gradient(-45deg, #00fff6 0%, rgba(0, 133, 147, 1) 100%);
-     z-index: -1;
+	content: "";
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(-45deg, #00fff6 0%, rgba(0, 133, 147, 1) 100%);
+	z-index: -1;
 }
 
 .primary::after {
-     content: "";
-     width: 100%;
-     height: 600px;
-     position: absolute;
-     top: 0;
-     left: 0;
-     background: no-repeat url(/img/linhas-detalhe.svg);
-     background-attachment: fixed;
-     z-index: -1;
+	content: "";
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: no-repeat url(/img/linhas-detalhe.svg);
+	background-attachment: fixed;
+	z-index: -1;
 }
 
 .icon-computador {
-     position: relative;
-     width: 50%;
+	position: relative;
+	width: 50%;
 }
 
 .chamada-principal {
-     width: 50%;
+	width: 50%;
 }
 
 .title {
-     position: relative;
-     font-weight: 400;
-     font-size: 3em;
-     color: #fff;
+	position: relative;
+	font-weight: 400;
+	font-size: 3em;
+	color: #fff;
 }
 
 .sub-title {
-     position: relative;
-     margin-top: 10px;
-     color: #fff;
-     font-weight: 300;
-     font-size: 1.3em;
-     line-height: 1.4em;
-}
-
-@media (max-width: 750px) {
-     .primary {
-          height: 475px;
-     }
-
-     .title {
-          font-size: 2.5em;  
-     }
-
-     .icon-computador {
-          width: 45%;
-          transform: translateX(-40px);
-     }
-
-     .chamada-principal {
-          width: 45%;
-     }
-}
-
-@media (max-width: 600px) {
-     .primary {
-          display: block;
-          text-align: center;
-          padding-top: 5%;
-          height: 450px;
-     }
-
-     .sub-title {
-          line-height: 1.4em;
-          padding-left: 40px;
-          padding-right: 40px;
-     }
-
-     .primary::before {
-          width: 100%;
-          height: 450px;
-     }
-
-     .icon-computador {
-          width: 100%;
-          transform: translateX(-113px);
-     }
-
-     .chamada-principal {
-          width: 100%;
-     }
-}
-
-@media (max-width: 450px) {
-     .icon-computador {
-          transform: translateX(-83px);
-     }
-}
-
-@media (max-width: 320px) {
-     .primary {
-          height: 280px;
-     }
-
-     .primary::before {
-          height: 380px;
-     }
-
-     .icon-computador {
-          transform: translateX(-50px);
-     }
-
-     .title {
-          font-size: 2.6em;
-     }
-
-     .sub-title {
-          padding-left: 10px;
-          padding-right: 10px;
-     }
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 1.3em;
+	line-height: 1.4em;
 }
