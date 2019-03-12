@@ -1,0 +1,3 @@
+/server-push-path
+  Link: </css/primary.css>; rel=preload; as=style
+  Link: </img/anuncio-iqvia.png>; rel=preload; as=image
