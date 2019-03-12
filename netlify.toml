@@ -1,6 +1,0 @@
-[[headers]]
-    # COMMENT: Multi-key header rules are expressed with multi-line strings
-    Link = 
-    </css/components/primary.css>; rel=preload; as=style, \
-    /css/components/second.css>; rel=preload; as=style, \
-    </css/components/third.css>; rel=preload; as=style
