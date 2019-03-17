@@ -2,7 +2,7 @@
 	"name": "Raphael Machado Freire",
 	"short_name": "Raphael Freire",
 	"theme_color": "#00a7b4",
-	"background_color": "#00a7b4",
+	"background_color": "#fff",
 	"display": "standalone",
 	"scope": "/",
 	"start_url": "/?utm_source=homescreen",
