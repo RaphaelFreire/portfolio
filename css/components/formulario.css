@@ -5,6 +5,7 @@
      width: 100%;
      appearance: none;
      margin-top: 30px;
+     
 }
 
 .formulario form input {
@@ -51,6 +52,7 @@
      margin-top: 25px;
      font-size: 15px;
      font-family: sans-serif;
+     color: gray;
      background-color: whitesmoke;
 }
 
@@ -116,5 +118,6 @@
 
      .formulario form .form-message {
           width: 100%; 
+          font-size: 1.2em;
      }
 }
