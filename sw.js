@@ -1,4 +1,4 @@
-const cacheName = "RaphaelPWA-v1";
+let cacheName = "RaphaelPWA-v1";
 let filesToCache = [
 	"index.html",
 	"/css/generic/base.css",
