@@ -1,6 +1,6 @@
-let cacheName = "RaphaelPWA-v1";
+const cacheName = "RaphaelPWA-v1";
 let filesToCache = [
-	"/index.html",
+	"index.html",
 	"/css/generic/base.css",
 	"/css/generic/reset.min.css",
 	"/css/components/footer.css",
