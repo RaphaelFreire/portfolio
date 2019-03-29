@@ -1,5 +1,5 @@
-const cacheName = "RaphaelPWA-v1";
-const filesToCache = [
+let cacheName = "RaphaelPWA-v1";
+let filesToCache = [
 	"index.html",
 	"/css/generic/base.css",
 	"/css/generic/reset.min.css",
@@ -29,9 +29,9 @@ const filesToCache = [
 	"/img/revista-abradimex.png",
 	"/img/revista-associadas.png",
 	"/img/revista-extrafarma.png",
-	"/js/app.js",
+	"app.js",
 	"/js/lazysizes.min.js",
-	"/js/sw.js"
+	"sw.js"
 ];
 
 self.addEventListener("install", function(event) {
