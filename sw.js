@@ -24,7 +24,7 @@ let filesToCache = [
 	"/img/icon-form-email.svg",
 	"/img/icon-form-nome.svg",
 	"/img/linhas-detalhe.svg",
-	"/img/logos.png",
+	"/img/logos.svg",
 	"/img/revista-abradilan.png",
 	"/img/revista-abradimex.png",
 	"/img/revista-associadas.png",
