@@ -1,3 +1,4 @@
+//sw.js
 let cacheName = "RaphaelPWA-v1";
 let filesToCache = [
 	"index.html",
