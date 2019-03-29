@@ -30,7 +30,9 @@ let filesToCache = [
 	"/img/revista-abradimex.png",
 	"/img/revista-associadas.png",
 	"/img/revista-extrafarma.png",
-	"/js/lazysizes.min.js"
+	"/js/lazysizes.min.js",
+	"sw.js",
+	"app.js"
 ];
 
 self.addEventListener("install", function(event) {
