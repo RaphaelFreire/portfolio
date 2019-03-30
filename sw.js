@@ -1,5 +1,6 @@
 //sw.js
-let cacheName = "RaphaelPWA-v1";
+const staticCacheName = "raphael-freire-29/03/2019";
+
 let filesToCache = [
 	"index.html",
 	"/css/generic/base.css",
@@ -35,41 +36,29 @@ let filesToCache = [
 	"app.js"
 ];
 
-self.addEventListener("install", function(event) {
-	// Perform install steps
-	console.log("[Servicework] Install");
+// Cache on install
+this.addEventListener("install", event => {
+	this.skipWaiting();
+
 	event.waitUntil(
-		caches.open(cacheName).then(function(cache) {
-			console.log("[ServiceWorker] Caching app shell");
+		caches.open(staticCacheName).then(cache => {
 			return cache.addAll(filesToCache);
 		})
 	);
 });
 
-self.addEventListener("activate", function(event) {
-	console.log("[Servicework] Activate");
+// Clear cache on activate
+this.addEventListener("activate", event => {
 	event.waitUntil(
-		caches.keys().then(function(keyList) {
+		caches.keys().then(cacheNames => {
 			return Promise.all(
-				keyList.map(function(key) {
-					if (key !== cacheName) {
-						console.log(
-							"[ServiceWorker] Removing old cache shell",
-							key
-						);
-						return caches.delete(key);
-					}
-				})
+				cacheNames
+					.filter(cacheName =>
+						cacheName.startsWith("raphael-freire-")
+					)
+					.filter(cacheName => cacheName !== staticCacheName)
+					.map(cacheName => caches.delete(cacheName))
 			);
-		})
-	);
-});
-
-self.addEventListener("fetch", event => {
-	console.log("[ServiceWorker] Fetch");
-	event.respondWith(
-		caches.match(event.request).then(function(response) {
-			return response || fetch(event.request);
 		})
 	);
 });
