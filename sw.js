@@ -75,25 +75,15 @@ self.addEventListener("fetch", event => {
 });
 
 // Serve from Cache
-self.addEventListener("fetch", event => {
-	const url = new URL(event.request.url);
-	const NOT_FOUND = "index.html";
-
+this.addEventListener("fetch", event => {
 	event.respondWith(
-		caches.match(event.request).then(result => {
-			return (
-				result ||
-				fetch(event.request).then(response => {
-					if (response.status == 200) {
-						caches.open(CACHE_GROUP).then(cache => {
-							cache.put(event.request, response.clone());
-						});
-						return response;
-					} else {
-						return caches.match(NOT_FOUND);
-					}
-				})
-			);
-		})
+		caches
+			.match(event.request)
+			.then(response => {
+				return response || fetch(event.request);
+			})
+			.catch(() => {
+				return caches.match("index.html");
+			})
 	);
 });
