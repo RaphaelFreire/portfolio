@@ -30,10 +30,7 @@ let filesToCache = [
 	"/img/revista-abradilan.png",
 	"/img/revista-abradimex.png",
 	"/img/revista-associadas.png",
-	"/img/revista-extrafarma.png",
-	"/js/lazysizes.min.js",
-	"sw.js",
-	"app.js"
+	"/img/revista-extrafarma.png"
 ];
 
 // Cache on install
