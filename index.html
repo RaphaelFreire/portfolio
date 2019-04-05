@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head role="head da página com link e meta tag">
-     <link rel="canonical" href="https://www.raphaelmachadofreire.com.br">
+     <link rel="canonical" href="https://www.raphaelmachadofreire.com.br" />
      
      <!-- github.com/aFarkas/lazysizes -->
      <script async src="js/lazysizes.min.js"></script>
@@ -124,14 +124,17 @@
           <form name="contact" method="POST" data-netlify="true">
                <label>
                     <img class="lazyload icon-nome" type="image/svg" role="img" data-src="/img/icon-form-nome.svg" alt="icone nome formulário">
-                    <input class="form-nome" type="text" name="name" placeholder="Nome" />
-               </label><br/>
+                    Nome: <input class="form-nome" type="text" name="name" />
+               </label>
+               <br/>
                <label>
                     <img class="lazyload icon-email" type="image/svg" role="img" data-src="/img/icon-form-email.svg" alt="icone nome formulário">
-                    <input class="form-email" type="email" name="email" placeholder="E-mail" />
+                    E-mail: <input class="form-email" type="email" name="email" />
                </label>
-               <label> 
-                    <textarea class="form-message" name="message">Precisa de ajuda? Estamos prontos para te ajudar.</textarea>
+               <br/><br/>
+               <label>
+                    Mensagem:
+                    <textarea class="form-message" name="message"></textarea>
                </label>
                <button type="submit" aria-label ="Enviar Mensagem">Enviar</button>
           </form>
@@ -167,6 +170,9 @@
           }
      </script>
 
+     <script src="sw.js"></script>
+     <script src="app.js"></script>
+    
      <!--Start of Tawk.to Script-->
      <script async type="text/javascript">
           var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -180,10 +186,6 @@
           })();
      </script>
      <!--End of Tawk.to Script-->
-
-    
-     <script src="sw.js"></script>
-     <script src="app.js"></script>
-    
+     
      </body>
 </html>

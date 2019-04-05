@@ -34,8 +34,8 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-     width: 100%;
-     color: gray;
+	width: 100%;
+	color: dimgray;
 }
 
 .four .-destaque {
@@ -72,7 +72,7 @@
 }
 
 .four .conteudo ul a:hover {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid black;
 }
 
 @media (max-width: 1500px) {
@@ -113,11 +113,11 @@
 	.four .conteudo {
 		width: 100%;
 		font-size: 1.2em;
-     }
-     
-     .four .conteudo p{
-          line-height: 30px;
-     }
+	}
+
+	.four .conteudo p {
+		line-height: 30px;
+	}
 
 	.four .conteudo li {
 		margin-bottom: 20px;

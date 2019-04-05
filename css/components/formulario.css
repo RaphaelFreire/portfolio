@@ -5,14 +5,14 @@
      width: 100%;
      appearance: none;
      margin-top: 30px;
-     
+     color: dimgray;
 }
 
 .formulario form input {
      border: none;
      border-radius: 0px;
-     height: 40px;
-     margin-top: 10px;
+     height: 35px;
+     margin-top: 5px;
 }
 
 .formulario .form-nome {
@@ -105,11 +105,11 @@
 
 @media(max-width:450px){
      .formulario .form-nome {
-          width: 83%;
+          width: 73%;
      }
 
      .formulario .form-email {
-          width: 83%;
+          width: 73%;
      }
 
      .formulario form {
@@ -119,5 +119,25 @@
      .formulario form .form-message {
           width: 100%; 
           font-size: 1.2em;
+     }
+}
+
+@media(max-width: 380px){
+     .formulario .form-nome {
+          width: 70%;
+     }
+
+     .formulario .form-email {
+          width: 70%;
+     }
+}
+
+@media(max-width: 320px){
+     .formulario .form-nome {
+          width: 65%;
+     }
+
+     .formulario .form-email {
+          width: 65%;
      }
 }
