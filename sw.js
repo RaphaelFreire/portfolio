@@ -1,5 +1,5 @@
 //sw.js
-const staticCacheName = "raphael-freire-29/03/2019";
+const staticCacheName = "raphael-freire-11/04/2019";
 
 let filesToCache = [
 	"index.html",
